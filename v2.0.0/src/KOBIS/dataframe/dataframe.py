@@ -2,9 +2,24 @@
 import pandas as pd
 import json
 
+year = 2023
+cnt = 11
+
+year = 2022
+cnt = 29
+
+year = 2021
+cnt = 48
+
+year = 2020
+cnt = 67
+
+year = 2019
+cnt = 86
+
 # 파일 불러오기
-for page in range (1, 11):
-    file_path = f"/Users/kimdohoon/Desktop/movie/2023/KOBIS_MOVIE_LIST_2023_{page}.json"
+for page in range (1, cnt):
+    file_path = f"/Users/kimdohoon/Desktop/movie/{year}/KOBIS_MOVIE_LIST_{year}_{page}.json"
     with open(file_path, "r") as file:
         data = json.load(file)
     df_test = pd.json_normalize(data["movieListResult"]["movieList"])
@@ -13,7 +28,7 @@ for page in range (1, 11):
     df_test.drop(columns=["directors", "companys"], inplace=True)
     # print(df_test)
 
-    parquet_filename = f"/Users/kimdohoon/Desktop/movie/parquet/KOBIS_MOVIE_LIST_2023_{page}.parquet"
+    parquet_filename = f"/Users/kimdohoon/Desktop/movie/parquet/{year}/KOBIS_MOVIE_LIST_{year}_{page}.parquet"
     df_test.to_parquet(parquet_filename, index=False)
     print(f"Parquet 파일 '{parquet_filename}'이 저장되었습니다.")
 

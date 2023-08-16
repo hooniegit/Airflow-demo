@@ -18,7 +18,7 @@ default_args = {
 
 # 프로젝트마다 변동될 DAG 사항들 기재
 dag = DAG(
-    dag_id='extract.movies.lists',
+    dag_id='extract.TMDB.movies.lists',
     description='extract movies lists and save JSON file',
     tags=['exaple', 'start', 'todo'],
     max_active_runs=1, # 동시에 실행되는 DAG의 수
@@ -35,22 +35,63 @@ start = EmptyOperator(
 )
 
 HOME_DIR = "/Users/kimdohoon/git/hooniegit/Airflow-demo/v2.0.0"
+year = 2021
 
 # 디렉토리 수정 필요
 extract = BashOperator(
-    task_id="echo",
+    task_id="extract",
     bash_command=f"""
-    python3 {HOME_DIR}/src/extract/extract_daily.py
+    python3 {HOME_DIR}/src/TMDB/extract/extract.py {year}
     """,
     dag=dag
 )
 
-# 디렉토리 수정 필요
-dataframe = BashOperator(
-    task_id="dataframe",
+extract_II = BashOperator(
+    task_id="extract.II",
     bash_command=f"""
-    python3 {HOME_DIR}/src/dataframe/dataframe_daily.py
-    """
+    python3 {HOME_DIR}/src/TMDB/extract/extract_after.py {year} 500
+    """,
+    dag=dag
+)
+
+extract_III = BashOperator(
+    task_id="extract.III",
+    bash_command=f"""
+    python3 {HOME_DIR}/src/TMDB/extract/extract_after.py {year} 1000
+    """,
+    dag=dag
+)
+
+extract_IV = BashOperator(
+    task_id="extract.IV",
+    bash_command=f"""
+    python3 {HOME_DIR}/src/TMDB/extract/extract_after.py {year} 1500
+    """,
+    dag=dag
+)
+
+extract_V = BashOperator(
+    task_id="extract.V",
+    bash_command=f"""
+    python3 {HOME_DIR}/src/TMDB/extract/extract_after.py {year} 2000
+    """,
+    dag=dag
+)
+
+extract_VI = BashOperator(
+    task_id="extract.VI",
+    bash_command=f"""
+    python3 {HOME_DIR}/src/TMDB/extract/extract_after.py {year} 2500
+    """,
+    dag=dag
+)
+
+clensing = BashOperator(
+    task_id="clensing",
+    bash_command=f"""
+    echo "Hello, World!"
+    """,
+    dag=dag
 )
 
 end = EmptyOperator(
@@ -58,4 +99,4 @@ end = EmptyOperator(
     dag=dag
 )
 
-start >> extract >> dataframe >> end
+start >> extract >> extract_II >> extract_III >> extract_IV >> extract_V >> extract_VI >> clensing >> end
