@@ -89,7 +89,7 @@ extract_VI = BashOperator(
 clensing = BashOperator(
     task_id="clensing",
     bash_command=f"""
-    echo "Hello, World!"
+    python3 {HOME_DIR}/src/TMDB/extract/clensing.py {year}
     """,
     dag=dag
 )

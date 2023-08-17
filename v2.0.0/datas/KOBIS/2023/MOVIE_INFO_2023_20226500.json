@@ -1,0 +1,119 @@
+{
+    "movieInfoResult": {
+        "movieInfo": {
+            "movieCd": "20226500",
+            "movieNm": "달짝지근해: 7510",
+            "movieNmEn": "HONEYSWEET",
+            "movieNmOg": "",
+            "showTm": "118",
+            "prdtYear": "2022",
+            "openDt": "20230815",
+            "prdtStatNm": "개봉예정",
+            "typeNm": "장편",
+            "nations": [
+                {
+                    "nationNm": "한국"
+                }
+            ],
+            "genres": [
+                {
+                    "genreNm": "코미디"
+                }
+            ],
+            "directors": [
+                {
+                    "peopleNm": "이한",
+                    "peopleNmEn": "LEE Han"
+                }
+            ],
+            "actors": [
+                {
+                    "peopleNm": "유해진",
+                    "peopleNmEn": "Yoo Hai Jin",
+                    "cast": "",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "김희선",
+                    "peopleNmEn": "KIM Hee-seon",
+                    "cast": "",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "차인표",
+                    "peopleNmEn": "CHA In-pyo",
+                    "cast": "",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "진선규",
+                    "peopleNmEn": "JIN Seon-kyu",
+                    "cast": "",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "한선화",
+                    "peopleNmEn": "HAN Sun-hwa",
+                    "cast": "",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "정다은",
+                    "peopleNmEn": "JUNG Da-eun",
+                    "cast": "",
+                    "castEn": ""
+                }
+            ],
+            "showTypes": [
+                {
+                    "showTypeGroupNm": "2D",
+                    "showTypeNm": "디지털"
+                }
+            ],
+            "companys": [
+                {
+                    "companyCd": "20139999",
+                    "companyNm": "(주)무비락",
+                    "companyNmEn": "MOVIEROCK",
+                    "companyPartNm": "제작사"
+                },
+                {
+                    "companyCd": "20228966",
+                    "companyNm": "(주)마인드마크",
+                    "companyNmEn": "MINDMARK Inc.",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "companyCd": "20228966",
+                    "companyNm": "(주)마인드마크",
+                    "companyNmEn": "MINDMARK Inc.",
+                    "companyPartNm": "제공"
+                }
+            ],
+            "audits": [
+                {
+                    "auditNo": "2023-MF01981 ",
+                    "watchGradeNm": "12세이상관람가"
+                }
+            ],
+            "staffs": [
+                {
+                    "peopleNm": "김재중",
+                    "peopleNmEn": "KIM Jae-joong",
+                    "staffRoleNm": "제작"
+                },
+                {
+                    "peopleNm": "이병헌",
+                    "peopleNmEn": "LEE Byoung-heon",
+                    "staffRoleNm": "시나리오(각본)"
+                },
+                {
+                    "peopleNm": "윤서영",
+                    "peopleNmEn": "",
+                    "staffRoleNm": "프로듀서"
+                }
+            ]
+        },
+        "source": "영화진흥위원회"
+    }
+}

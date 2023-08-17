@@ -25,7 +25,12 @@ for page in range(1, 501):
         "Authorization": f"Bearer {api_key}"
     }
     response = requests.get(url, headers=headers).json()
-    path = f"/Users/kimdohoon/Desktop/TMDB/JSON/{year}/TMDB_movie_{year}_{page + mid_num}.json"
-    with open(path, "w") as file:
-        json.dump(response, file, indent=4, ensure_ascii=False)
-        print(f"page {page + mid_num} extract SUCCEED")
+
+    valid = response["results"]
+    if not valid:
+        break
+    else:
+        path = f"/Users/kimdohoon/Desktop/TMDB/JSON/{year}/TMDB_movie_{year}_{page + mid_num}.json"
+        with open(path, "w") as file:
+            json.dump(response, file, indent=4, ensure_ascii=False)
+            print(f"page {page + mid_num} extract SUCCEED")
