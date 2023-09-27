@@ -1,0 +1,104 @@
+{
+    "movieInfoResult": {
+        "movieInfo": {
+            "movieCd": "20211047",
+            "movieNm": "오늘 출가합니다",
+            "movieNmEn": "I Leave Home",
+            "movieNmOg": "",
+            "showTm": "90",
+            "prdtYear": "2021",
+            "openDt": "20230405",
+            "prdtStatNm": "개봉",
+            "typeNm": "장편",
+            "nations": [
+                {
+                    "nationNm": "한국"
+                }
+            ],
+            "genres": [
+                {
+                    "genreNm": "드라마"
+                }
+            ],
+            "directors": [
+                {
+                    "peopleNm": "김성환",
+                    "peopleNmEn": "KIM Sunghwan"
+                }
+            ],
+            "actors": [
+                {
+                    "peopleNm": "전은주",
+                    "peopleNmEn": "Jeon Eun Ju",
+                    "cast": "한지혜감독",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "양흥주",
+                    "peopleNmEn": "YANG Heung-joo",
+                    "cast": "",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "나현준",
+                    "peopleNmEn": "",
+                    "cast": "",
+                    "castEn": ""
+                }
+            ],
+            "showTypes": [
+                {
+                    "showTypeGroupNm": "2D",
+                    "showTypeNm": "디지털"
+                },
+                {
+                    "showTypeGroupNm": "2D",
+                    "showTypeNm": "디지털 영문자막"
+                }
+            ],
+            "companys": [
+                {
+                    "companyCd": "20230135",
+                    "companyNm": "미디어나무(주)",
+                    "companyNmEn": "MediaNamu. Inc",
+                    "companyPartNm": "제작사"
+                },
+                {
+                    "companyCd": "20188741",
+                    "companyNm": "(주)트리플픽쳐스",
+                    "companyNmEn": "Triple Pictures Inc.",
+                    "companyPartNm": "배급사"
+                }
+            ],
+            "audits": [
+                {
+                    "auditNo": "2023-MF00584",
+                    "watchGradeNm": "12세이상관람가"
+                }
+            ],
+            "staffs": [
+                {
+                    "peopleNm": "박준호",
+                    "peopleNmEn": "Park Juno",
+                    "staffRoleNm": "제작"
+                },
+                {
+                    "peopleNm": "이임걸",
+                    "peopleNmEn": "LEE Imkul",
+                    "staffRoleNm": "프로듀서"
+                },
+                {
+                    "peopleNm": "심지훈",
+                    "peopleNmEn": "",
+                    "staffRoleNm": "조명"
+                },
+                {
+                    "peopleNm": "박진수",
+                    "peopleNmEn": "PARK Jin-soo",
+                    "staffRoleNm": "시나리오(각본)"
+                }
+            ]
+        },
+        "source": "영화진흥위원회"
+    }
+}

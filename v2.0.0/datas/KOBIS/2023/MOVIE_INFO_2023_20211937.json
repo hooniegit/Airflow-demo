@@ -1,0 +1,138 @@
+{
+    "movieInfoResult": {
+        "movieInfo": {
+            "movieCd": "20211937",
+            "movieNm": "귀공자",
+            "movieNmEn": "The Childe",
+            "movieNmOg": "",
+            "showTm": "117",
+            "prdtYear": "2022",
+            "openDt": "20230621",
+            "prdtStatNm": "개봉",
+            "typeNm": "장편",
+            "nations": [
+                {
+                    "nationNm": "한국"
+                }
+            ],
+            "genres": [
+                {
+                    "genreNm": "액션"
+                }
+            ],
+            "directors": [
+                {
+                    "peopleNm": "박훈정",
+                    "peopleNmEn": "PARK Hoon-jung"
+                }
+            ],
+            "actors": [
+                {
+                    "peopleNm": "김선호",
+                    "peopleNmEn": "",
+                    "cast": "",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "강태주",
+                    "peopleNmEn": "",
+                    "cast": "",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "김강우",
+                    "peopleNmEn": "KIM Kang-woo",
+                    "cast": "",
+                    "castEn": ""
+                },
+                {
+                    "peopleNm": "고아라",
+                    "peopleNmEn": "GO A-ra",
+                    "cast": "",
+                    "castEn": ""
+                }
+            ],
+            "showTypes": [
+                {
+                    "showTypeGroupNm": "2D",
+                    "showTypeNm": "디지털"
+                },
+                {
+                    "showTypeGroupNm": "2D",
+                    "showTypeNm": "디지털 가치봄"
+                }
+            ],
+            "companys": [
+                {
+                    "companyCd": "20161022",
+                    "companyNm": "(주)영화사 금월",
+                    "companyNmEn": "Goldmoon",
+                    "companyPartNm": "제작사"
+                },
+                {
+                    "companyCd": "20161781",
+                    "companyNm": "(주)스튜디오앤뉴",
+                    "companyNmEn": "",
+                    "companyPartNm": "제작사"
+                },
+                {
+                    "companyCd": "20100932",
+                    "companyNm": "(주)넥스트엔터테인먼트월드(NEW)",
+                    "companyNmEn": "Next Entertainment World",
+                    "companyPartNm": "배급사"
+                },
+                {
+                    "companyCd": "20161781",
+                    "companyNm": "(주)스튜디오앤뉴",
+                    "companyNmEn": "",
+                    "companyPartNm": "제공"
+                },
+                {
+                    "companyCd": "20100932",
+                    "companyNm": "(주)넥스트엔터테인먼트월드(NEW)",
+                    "companyNmEn": "Next Entertainment World",
+                    "companyPartNm": "공동제공"
+                }
+            ],
+            "audits": [
+                {
+                    "auditNo": "2023-MF01479 ",
+                    "watchGradeNm": "청소년관람불가"
+                }
+            ],
+            "staffs": [
+                {
+                    "peopleNm": "박훈정",
+                    "peopleNmEn": "PARK Hoon-jung",
+                    "staffRoleNm": "제작"
+                },
+                {
+                    "peopleNm": "연영식",
+                    "peopleNmEn": "YEON Young-sik",
+                    "staffRoleNm": "프로듀서"
+                },
+                {
+                    "peopleNm": "박훈정",
+                    "peopleNmEn": "PARK Hoon-jung",
+                    "staffRoleNm": "시나리오(각본)"
+                },
+                {
+                    "peopleNm": "이종규",
+                    "peopleNmEn": "",
+                    "staffRoleNm": "VFX 아티스트"
+                },
+                {
+                    "peopleNm": "김기준",
+                    "peopleNmEn": "",
+                    "staffRoleNm": "VFX 아티스트"
+                },
+                {
+                    "peopleNm": "천영문",
+                    "peopleNmEn": "",
+                    "staffRoleNm": "VFX 아티스트"
+                }
+            ]
+        },
+        "source": "영화진흥위원회"
+    }
+}
