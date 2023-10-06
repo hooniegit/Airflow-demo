@@ -1,6 +1,5 @@
 cron
 vim
-sqlite3
 git
 wget
 python3-pip
